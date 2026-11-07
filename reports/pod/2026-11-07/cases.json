@@ -1,0 +1,450 @@
+{
+  "date": "2026-11-07",
+  "counts": {
+    "PASS": 78,
+    "FAIL": 5,
+    "BLOCKED": 5
+  },
+  "cases": [
+    {
+      "id": "POD-HTTP-AUTH-001",
+      "title": "未登录访问受保护接口",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-001",
+      "title": "Create POD",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-002",
+      "title": "Replace POD, address, tag and point bindings",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-003",
+      "title": "Get authorized POD by primary key",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-004",
+      "title": "Get authorized POD by business number",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-005",
+      "title": "Paged list",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-006",
+      "title": "All map markers, ignores pagination",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-007",
+      "title": "Delete disconnected and unbound POD",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-008",
+      "title": "Connected status",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-009",
+      "title": "Disconnected status",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-010",
+      "title": "Batch/single lifecycle",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-011",
+      "title": "Atomic delete",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-012",
+      "title": "Atomic Connected status",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-013",
+      "title": "Atomic Disconnected status",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-014",
+      "title": "Atomic group change",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-015",
+      "title": "Atomic tags change",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-016",
+      "title": "Five-state dictionary",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-017",
+      "title": "15 ordered conditions",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-018",
+      "title": "Authorized organization options",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-019",
+      "title": "Authorized existing points",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-020",
+      "title": "Current authorized point bindings",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-021",
+      "title": "Current authorized customers for selected points",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-022",
+      "title": "Authorized transformers",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-023",
+      "title": "POD tag type 19 options",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-024",
+      "title": "Read lifecycle history",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-025",
+      "title": "Shared metering-point definitions",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-026",
+      "title": "Read parameter assignment history",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-027",
+      "title": "Assign parameter (append only)",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-028",
+      "title": "End parameter assignment",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-029",
+      "title": "Remove editable assignment, active or ended",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-030",
+      "title": "Download exact UTF-8 BOM 22-column CSV",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-031",
+      "title": "Submit async import",
+      "status": "FAIL"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-032",
+      "title": "Submit async export",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ENDPOINT-033",
+      "title": "Authorized supplier options by business number or name",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-org_no",
+      "title": "动态条件 org_no",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-podId",
+      "title": "动态条件 podId",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-mpId",
+      "title": "动态条件 mpId",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-customer",
+      "title": "动态条件 customer",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-status",
+      "title": "动态条件 status",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-ean",
+      "title": "动态条件 ean",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-supplier",
+      "title": "动态条件 supplier",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "POD-HTTP-FILTER-capacity",
+      "title": "动态条件 capacity",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-contractStart",
+      "title": "动态条件 contractStart",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-contractEnd",
+      "title": "动态条件 contractEnd",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-tag",
+      "title": "动态条件 tag",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-description",
+      "title": "动态条件 description",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-transformerId",
+      "title": "动态条件 transformerId",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-address",
+      "title": "动态条件 address",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-FILTER-externalId",
+      "title": "动态条件 externalId",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-REQUIRED",
+      "title": "必填、空白及超长字段",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-UNIQUE",
+      "title": "全局唯一及已删除编号",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-IMMUTABLE",
+      "title": "POD 编号不可修改",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-ORG",
+      "title": "组织权限与只读名称",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-REPLACE",
+      "title": "全量替换及清空语义",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-SORT",
+      "title": "单列、多列及 Label 排序",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-INJECTION",
+      "title": "非法字段、操作符和排序拒绝",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-PAGE",
+      "title": "分页与总数",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-MAP",
+      "title": "地图不分页及零坐标",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-GEO",
+      "title": "国家大区城市归属及事务",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-COORD",
+      "title": "坐标边界及成对校验",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-LANG",
+      "title": "码值及多语言 Label",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-HISTORY",
+      "title": "全部生命周期及相同状态重复",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-DELETE-GUARD",
+      "title": "激活及有效关联删除保护",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-BATCH",
+      "title": "批量失败原子性",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-PARAM",
+      "title": "参数校验及默认值",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-PARAM-HISTORY",
+      "title": "重复分配、结束及移除历史",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-IMPORT-ATOMIC",
+      "title": "导入多行失败及行号",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-EXPORT-MISSING",
+      "title": "缺少及非法导出格式",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-EXPORT-CSV",
+      "title": "CSV 异步生成下载解析",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-EXPORT-EXCEL",
+      "title": "Excel 异步生成下载解析",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-EXPORT-PDF",
+      "title": "PDF 异步生成下载解析",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-LOGIN",
+      "title": "认证会话及权限基线",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-BASELINE",
+      "title": "业务数据基线",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-METADATA",
+      "title": "公共动态条件与数据库配置",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-CLEANUP",
+      "title": "清理本轮数据",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-PAGE-NORMALIZE",
+      "title": "公共分页默认值",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-COLUMNS",
+      "title": "动态列定义和默认选择",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-COLUMNS-SAVE",
+      "title": "个人动态列保存、读回和恢复",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-IMPORT-BASIC",
+      "title": "普通合法CSV异步导入",
+      "status": "FAIL"
+    },
+    {
+      "id": "POD-HTTP-IMPORT-QUOTED",
+      "title": "带引号逗号CSV异步导入",
+      "status": "FAIL"
+    },
+    {
+      "id": "POD-HTTP-IMPORT-MULTILINE",
+      "title": "带引号内换行CSV异步导入",
+      "status": "FAIL"
+    },
+    {
+      "id": "POD-HTTP-IMPORT-DIAGNOSTICS",
+      "title": "失败任务错误信息完整性",
+      "status": "FAIL"
+    },
+    {
+      "id": "POD-HTTP-TASK-PERSISTENCE",
+      "title": "公共任务持久化",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-DOWNLOAD-MISSING",
+      "title": "不存在对象下载失败",
+      "status": "PASS"
+    },
+    {
+      "id": "POD-HTTP-AUDIT-STORE",
+      "title": "操作日志最终落库",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "POD-HTTP-MULTI-ROLE",
+      "title": "多角色及多用户并发隔离",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "POD-HTTP-MAP-LARGE",
+      "title": "超过1000条地图完整性",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "POD-HTTP-PARAM-MODES",
+      "title": "Fixed/Hidden/枚举参数完整矩阵",
+      "status": "BLOCKED"
+    }
+  ]
+}
